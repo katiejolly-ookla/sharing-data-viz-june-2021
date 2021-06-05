@@ -1,7 +1,7 @@
 ---
 title: "Designing graphics to post online"
 author: "Katie Jolly (@katiejolly6)"
-date: "CascadiaRConf 2021"
+date: "katiejolly.io/sharing-data-viz-june-2021"
 subtitle: What I’ve learned from the (sometimes helpful) comments on my maps from
   Twitter and Reddit
 output:
@@ -45,6 +45,8 @@ style_duo_accent(
 class: inverse center middle
 
 # Why (and how) should we do data visualization critiques?
+
+If you'd like to follow along with a transcript, you can go to this version of the slides:        [katiejolly.io/sharing-data-viz-june-2021-transcript]()
 
 ---
 class: split-four
