@@ -46,7 +46,7 @@ class: inverse center middle
 
 # Why (and how) should we do data visualization critiques?
 
-If you'd like to follow along with a transcript, you can go to this version of the slides:        [katiejolly.io/sharing-data-viz-june-2021-transcript]()
+If you'd like to follow along with a transcript, you can go to this version of the slides:        [katiejolly.io/sharing-data-viz-june-2021-transcript](katiejolly.io/sharing-data-viz-june-2021-transcript)
 
 ---
 class: split-four
