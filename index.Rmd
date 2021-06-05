@@ -1,0 +1,131 @@
+---
+title: "Designing graphics to post online"
+author: "Katie Jolly (@katiejolly6)"
+date: "CascadiaRConf 2021"
+subtitle: What I’ve learned from the (sometimes helpful) comments on my maps from
+  Twitter and Reddit
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    nature:
+      slideNumberFormat: "%current%"
+      highlightStyle: github
+      highlightLines: true
+      ratio: 16:9
+      countIncrementalSlides: true
+---
+
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  fig.width=9, fig.height=3.5, fig.retina=3,
+  out.width = "100%",
+  cache = FALSE,
+  echo = TRUE,
+  message = FALSE, 
+  warning = FALSE,
+  fig.show = TRUE,
+  hiline = TRUE
+)
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_duo_accent(
+  primary_color  = "#5B618A",
+  secondary_color = "#F4E6A7",
+  text_font_google = google_font("Lato"),
+  code_font_google = google_font("Fira Mono"),
+  header_font_google = google_font("Archivo", "300", "400"),
+  text_font_size = 16
+)
+```
+
+class: inverse center middle
+
+# Why (and how) should we do data visualization critiques?
+
+---
+class: split-four
+
+.pull-left[
+
+ <img src="https://pbs.twimg.com/media/EnjmvvNXYAIbw9C?format=jpg&name=4096x4096" alt="Map of rivers that are also state boundaries. Most of these are in the lower midwest and south" class="centerimg" width="150%" height="150%" >
+ 
+ <br>
+ <br>
+ 
+ 
+ <img src="https://raw.githubusercontent.com/katiejolly/30-day-maps-2020/main/20-population/urbanization_virginia.png" alt="Map of Virginia showing the percent of people in a census tract that think they live in a rural, urban, or suburban area. Most of the state is rural. Areas around DC, Roanoke, and Richmond are highlighted to the side of the map." width="100%" height="100%"> 
+ ]
+ 
+ .pull-right[
+ 
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ ## Some examples I'll discuss critiques for
+
+ 
+
+ ]
+
+---
+class: inverse center middle
+
+# Not all criticism is helpful or correct
+
+<style>
+.centerimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+  
+---
+
+# People love to find themselves and compare to others (especially when it's a map)
+
+ <img src="https://raw.githubusercontent.com/katiejolly/30-day-maps-2020/main/20-population/urbanization_virginia.png" alt="Map of Virginia showing the percent of people in a census tract that think they live in a rural, urban, or suburban area. Most of the state is rural. Areas around DC, Roanoke, and Richmond are highlighted to the side of the map." width="50%" height="50%" class="centerimg"> 
+
+On Reddit: 
+
+> That southeast part of Richmond that is rural is called Varina and it is exactly like this map depicts. This oddly rural area abutting the city where you can go from near downtown to the middle of a bean field in a tenth of a mile or two.
+
+---
+
+# Annotations are great for guiding a reader's understanding
+
+<img src="img/map_annotations.png" alt="Same image as previous slide with annotations that say I should have included a note about no data areas and better labels on the legends" class="centerimg" width="72%">
+
+---
+
+# Share your code because people may have tips you never thought to ask for
+
+<img src="img/pr_screenshot.png" alt="GitHub pull request UI where someone submitted a PR to edit my code to be more efficient" class="centerimg" width="60%">
+
+---
+
+# There are many people online with niche insights that are hard to learn on your own
+
+<img src="https://pbs.twimg.com/media/EnjmvvNXYAIbw9C?format=jpg&name=4096x4096" alt="Map of rivers that are also state boundaries. Most of these are in the lower midwest and south" class="centerimg" width="55%" height="55%" >
+
+Alex Fries on Twitter:
+ > Great map! I’ve looked at the dataset you used for it before—off the top of my head, I know it’s missing the Perdido River on the AL-FL border. There’s also the Pigeon, Pine, and Granite Rivers on the eastern MN-ON border, though those are easy to miss with all the lakes there!
+ 
+---
+ 
+# More reading/links I've mentioned:
+ 
+* Presentation on accessibility for data visualization by Silvia Canelón and Liz Hare https://github.com/spcanelon/csvConf2021 
+ 
+* Helpful alt text formula from Amy Cesal https://medium.com/nightingale/writing-alt-text-for-data-visualization-2a218ef43f81
+ 
+* Post on data visualization citiques by Alli Torban https://www.tableau.com/about/blog/2019/5/critiquing-data-visualizations-channel-empathy-and-be-productive
+
+* Policy Viz data visualization critiques https://policyviz.com/2021/06/03/new-video-series-data-visualization-critiques/
